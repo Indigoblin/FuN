@@ -17,6 +17,7 @@ public class Utilisateur {
         this.mdp = mdpInp;
     }
 
+    // Getters et Setters
     public TextField getName() {
         return name;
     }

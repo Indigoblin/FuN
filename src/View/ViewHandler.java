@@ -51,6 +51,7 @@ public class ViewHandler extends Application {
         setViewSubscribe();
     }
 
+    // Getters et Setters
     public void setEventHandlerSubs(ControllerSubscribe cm) {
         vS.setEventsSubs(cm);
     }

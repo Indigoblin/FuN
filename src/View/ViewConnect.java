@@ -64,6 +64,7 @@ public class ViewConnect {
         root.getChildren().add(seConnectBtn);
     }
 
+    // Getters et Setters
     public void setEventsConn(ControllerConnect cc){
         seConnectBtn.setOnMouseClicked(cc);
     }

@@ -23,8 +23,6 @@ public class ViewProfile {
         this.vhProfile = vhProfile;
         this.root = root;
 
-
-
         // initialisation des labels
 
         nomPro = new Label("Nom");

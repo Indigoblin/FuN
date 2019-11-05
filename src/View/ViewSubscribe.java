@@ -115,6 +115,7 @@ public class ViewSubscribe{
         root.getChildren().add(validBtn);
     }
 
+    // Getters et Setters
     public void setEventsSubs(ControllerSubscribe mc) {
         connectBtn.setOnMouseClicked(mc);
         validBtn.setOnMouseClicked(mc);
