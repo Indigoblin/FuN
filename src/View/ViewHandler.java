@@ -27,7 +27,7 @@ public class ViewHandler extends Application {
 
 
     @Override
-    public void start(Stage primaryStage) throws Exception {
+    public void start(Stage primaryStage){
         this.primaryStage = primaryStage;
 
         root = new VBox();

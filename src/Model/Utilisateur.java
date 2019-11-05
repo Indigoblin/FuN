@@ -75,7 +75,6 @@ public class Utilisateur {
     }
 
     public String toString(){
-        String test = name +" "+  prenom +" "+  mail +" "+ town +" "+ codePostal +" "+  mdp;
-        return test;
+        return name +" "+  prenom +" "+  mail +" "+ town +" "+ codePostal +" "+  mdp;
     }
 }

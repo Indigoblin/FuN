@@ -19,7 +19,6 @@ public class ControllerConnect implements EventHandler<MouseEvent> {
     public void handle(MouseEvent event) {
         if (event.getSource().equals(launcher.getvC().getSeConnectBtn())){
             launcher.setViewProfile();
-
         }
     }
 }

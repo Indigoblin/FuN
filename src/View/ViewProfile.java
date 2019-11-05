@@ -1,6 +1,5 @@
 package View;
 
-import Model.Utilisateur;
 import javafx.geometry.Pos;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
