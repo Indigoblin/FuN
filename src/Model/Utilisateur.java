@@ -1,4 +1,4 @@
-package View;
+package Model;
 
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
@@ -7,7 +7,7 @@ public class Utilisateur {
     private TextField name, prenom, adresse, codePostal, town, mail;
     private PasswordField mdp;
 
-    Utilisateur(TextField nameInp, TextField prenoInp, TextField adressInp, TextField codePoInp, TextField townInp, TextField mailInp, PasswordField mdpInp){
+    public Utilisateur(TextField nameInp, TextField prenoInp, TextField adressInp, TextField codePoInp, TextField townInp, TextField mailInp, PasswordField mdpInp){
         this.name = nameInp;
         this.prenom = prenoInp;
         this.adresse = adressInp;
@@ -71,5 +71,10 @@ public class Utilisateur {
 
     public void setMdp(PasswordField mdp) {
         this.mdp = mdp;
+    }
+
+    public String toString(){
+        String test = name +" "+  prenom +" "+  mail +" "+ town +" "+ codePostal +" "+  mdp;
+        return test;
     }
 }

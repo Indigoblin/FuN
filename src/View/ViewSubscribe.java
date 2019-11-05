@@ -1,6 +1,7 @@
 package View;
 
 import Controller.ControllerSubscribe;
+import Model.Utilisateur;
 import javafx.geometry.Pos;
 import javafx.scene.control.PasswordField;
 import javafx.scene.layout.HBox;
@@ -24,8 +25,6 @@ public class ViewSubscribe{
     ViewSubscribe(ViewHandler vhSubs, VBox root){
         this.vhSubs = vhSubs;
         this.root = root;
-
-        userInfo = new Utilisateur(nameInp,prenoInp,adressInp,codePoInp,townInp,mailInp,mdpInp);
 
         // initialisation des labels
         titleSubscrib = new Label("FuN - Inscription");
@@ -102,6 +101,9 @@ public class ViewSubscribe{
         containAll.setAlignment(Pos.CENTER);
 
         initView();
+
+        userInfo = new Utilisateur(nameInp,prenoInp,adressInp,codePoInp,townInp,mailInp,mdpInp);
+        System.out.println(userInfo);
     }
 
     void initView(){
